@@ -19,11 +19,11 @@ function tickplay() {
 
 let parameters =
 {
-  api_key: "1673042e42ac4d49b73a94e6f9e29db7",
+  api_key: "f53fa390428e45cea2bce7dc6df67cd2",
   location: "IN"
 }
 // By default displays US time
-url = new URL("https://timezone.abstractapi.com/v1/current_time/?api_key=1673042e42ac4d49b73a94e6f9e29db7&location=NY,%20US") 
+url = new URL("https://timezone.abstractapi.com/v1/current_time/?api_key=f53fa390428e45cea2bce7dc6df67cd2&location=NY,%20US") 
 
 // Access the other html document insterted using iframe
 let iframe= document.getElementById("countryinput")
